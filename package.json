@@ -1,0 +1,28 @@
+{
+    "name": "halo-theme-pinghsu-master",
+    "version": "1.0.0",
+    "description": "halo主题",
+    "main": "index.js",
+    "scripts": {
+        "build": "node ./build/build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hiblacker/halo-theme-pinghsu.git"
+    },
+    "keywords": [
+        "halo",
+        "theme",
+        "pinghsu"
+    ],
+    "author": "hiblacker",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hiblacker/halo-theme-pinghsu/issues"
+    },
+    "homepage": "https://github.com/hiblacker/halo-theme-pinghsu#readme",
+    "devDependencies": {
+        "clean-css": "^4.2.3"
+    }
+}
