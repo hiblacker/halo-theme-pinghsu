@@ -4,8 +4,7 @@
     "description": "halo主题",
     "main": "index.js",
     "scripts": {
-        "build": "node ./build/build",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "build": "node ./build/build"
     },
     "repository": {
         "type": "git",
