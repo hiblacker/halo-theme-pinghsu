@@ -774,7 +774,7 @@ textarea:-ms-input-placeholder {
 
 .post-list-item-container:hover {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, .1);
-    /* transform: translate3d(0, -5px, 0); */
+    transform: translate3d(0, -5px, 0);
 }
 
 .post-list-item-container .item-thumb {
