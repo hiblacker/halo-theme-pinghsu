@@ -180,7 +180,7 @@ var postDirectory = new Headroom(document.getElementById("directory-content"), {
 postDirectory.init();
 </#if>
 
-<#if post??>
+<#--  <#if post??>
 var postSharer = new Headroom(document.getElementById("post-bottom-bar"), {
     tolerance: 0,
     offset : 70,
@@ -191,7 +191,7 @@ var postSharer = new Headroom(document.getElementById("post-bottom-bar"), {
     }
 });
 postSharer.init();
-</#if>
+</#if>  -->
 
 var header = new Headroom(document.getElementById("header"), {
     tolerance: 0,

@@ -93,7 +93,7 @@
         </div>
     </article>
 
-    <div id="post-bottom-bar" class="post-bottom-bar">
+    <#--  <div id="post-bottom-bar" class="post-bottom-bar">
         <div class="bottom-bar-inner">
             <div class="bottom-bar-items social-share left">
                 <span class="bottom-bar-item">Share : </span>
@@ -112,11 +112,6 @@
                         Weibo
                     </a>
                 </span>
-                <#--  <span class="bottom-bar-item bottom-bar-qrcode">
-                    <a href="//pan.baidu.com/share/qrcode?w=300&amp;h=300&amp;url=${post.fullPath!}" target="_blank" rel="nofollow">
-                        QRcode
-                    </a>
-                </span>  -->
             </div>
             <div class="bottom-bar-items right">
                 <span class="bottom-bar-item">
@@ -133,7 +128,7 @@
                 <span class="bottom-bar-item"><a href="#">↑</a></span>
             </div>
         </div>
-    </div>
+    </div>  -->
 <#include "comment.ftl">
 <@comment post=post type="post" />
 <#include "footer.ftl">
