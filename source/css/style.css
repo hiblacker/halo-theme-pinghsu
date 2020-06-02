@@ -768,7 +768,8 @@ textarea:-ms-input-placeholder {
     padding: 0;
     border-radius: 3px;
     background-color: #fff;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .04)
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .04);
+    transition: .35s
 }
 
 .post-list-item-container:hover {
