@@ -1,20 +1,24 @@
-const path = require('path')
-const fs = require('fs')
-const CleanCSS = require('clean-css')
+const path = require("path");
+const autoprefixer = require("autoprefixer");
+const postcss = require("postcss");
+const precss = require("precss");
+const fs = require("fs");
+const cssnano = require("cssnano");
 
 const config = {
-    input: '../source/css/style.css',
-    output: '../source/css/style.min.css'
-}
+    input: "../source/css/style.css",
+    output: "../source/css/style.min.css",
+};
 
-const outputDir = path.resolve(__dirname, config.output)
-const inputDir = path.resolve(__dirname, config.input)
-const style = fs.readFileSync(inputDir, 'utf-8')
+const outputDir = path.resolve(__dirname, config.output);
+const inputDir = path.resolve(__dirname, config.input);
 
-const options = {
-  /* options */
-}
-const output = new CleanCSS(options).minify(style)
-if (output.styles) {
-  fs.writeFileSync(outputDir, output.styles)
-}
+fs.readFile(inputDir, (err, css) => {
+    postcss([precss, autoprefixer])
+        .process(css, { from: inputDir, to: outputDir })
+        .then((result) => {
+            cssnano.process(result.css).then((res) => {
+                fs.writeFileSync(outputDir, res.css);
+            });
+        });
+});
