@@ -8,6 +8,12 @@
 
 原主题地址：[https://github.com/chakhsu/pinghsu](https://github.com/chakhsu/pinghsu)
 
+### 基于原主题的修改
+- 添加日志页面
+- 文章页底部分享删除
+- 文章字体大小由 `14px` 改为 `16px`
+- 首页文章 hover 时的样式优化
+
 ## 预览截图
 
 ![index](https://i.loli.net/2019/05/29/5ced6f2c7483923398.png)
