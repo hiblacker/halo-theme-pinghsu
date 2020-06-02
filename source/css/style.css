@@ -1929,7 +1929,6 @@ textarea:-ms-input-placeholder {
     position: relative;
     z-index: 1;
     margin-top: 0;
-    padding-bottom: 50px;
     background-color: #fff
 }
 
