@@ -1385,7 +1385,6 @@ textarea:-ms-input-placeholder {
     color: #5f5f5f
 }
 
-.archive-page .post-list-item:hover,
 .common-page .post-list-item:hover,
 .related-post-lists .post-list-item:hover {
     transition-duration: .3s;
