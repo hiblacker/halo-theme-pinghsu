@@ -11,14 +11,14 @@
                         <div class="post-lists-body">
                             <#list archive.posts as post>
                                 <div class="post-list-item">
-                                    <div class="post-list-item-container">
+                                    <a class="post-list-item-container" href="${post.fullPath!}">
                                         <div class="item-label">
-                                            <div class="item-title"><a href="${post.fullPath!}">${post.title!}</a></div>
+                                            <div class="item-title">${post.title!}</div>
                                             <div class="item-meta clearfix">
                                                 <div class="item-meta-date"> ${post.createTime?string('MMM d,yyyy')} </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </#list>
                         </div>

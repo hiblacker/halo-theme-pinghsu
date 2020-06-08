@@ -1322,7 +1322,8 @@ textarea:-ms-input-placeholder {
     border: 1px solid rgba(184, 197, 214, .2);
     border-radius: 3px;
     background: #fff;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .04)
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .04);
+    display: block
 }
 
 .archive-page .post-list-item-container .item-label {
@@ -1330,7 +1331,7 @@ textarea:-ms-input-placeholder {
     background: #fff
 }
 
-.archive-page .post-list-item-container .item-label .item-title a {
+.archive-page .post-list-item-container .item-label .item-title {
     font-size: 14px;
     display: block;
     overflow: hidden;
