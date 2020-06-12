@@ -1038,7 +1038,7 @@ textarea:-ms-input-placeholder {
 }
 
 .post-page {
-    max-width: 800px;
+    max-width: 720px;
     padding: 30px 25px 20px
 }
 
@@ -1539,6 +1539,7 @@ textarea:-ms-input-placeholder {
 
 #directory {
     position: fixed;
+    font-size: 14px;
     z-index: 0;
     top: 100px;
     display: inline-block;
