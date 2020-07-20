@@ -1094,12 +1094,12 @@ textarea:-ms-input-placeholder {
     background-color: #f7f7f7
 }
 
-.post-content p a {
+.post-content a {
     color: #313131;
     border-bottom: 1px solid #ccc
 }
 
-.post-content p a:hover {
+.post-content a:hover {
     color: #eb5055;
     border-bottom: 1px solid #eb5055
 }
